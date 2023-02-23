@@ -1,0 +1,53 @@
+#body{
+  background: white;
+  width:100%;
+  padding: 20%;
+}
+.full-screen {
+  height: calc(100vh - 56px) !important;
+}
+#video{
+  width:300px;
+}
+
+
+
+#header {
+      position: fixed;
+      top:0;
+      left:0;
+
+}
+
+#header-img{
+  background-image: url("https://www.logodesign.net/logo-new/owl-on-scale-legal-icon-6854ld.png") mo-repeat;
+  width:200px;
+  height: 100px;
+}
+@media screen and (max-width: 992px) {
+  body {
+    background-color: white;
+  }
+}
+
+#home{
+  width:100%;
+  margin-top:300px;
+}
+
+#main-container{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+}
+
+#product1,#product2,#product3{
+  border: solid 1px;
+  width:30%;
+  float:left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}

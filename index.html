@@ -1,26 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
+  <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
 
-  <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<body>
 
-    <!--
 
-    Hello Camper!
+    <header id="header">
 
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
+<img id="header-img">
 
-    - The freeCodeCamp Team
+<nav id="nav-bar">
+    <a class="nav-link" href="#home">HOME</a>
+    <a class="nav-link" href="#store">STORE</a>
+    <a class="nav-link" href="#about">ABOUT</a>
+</nav>
 
-    -->
-    <script  src="js/index.js"></script>
-  </body>
+
+</header>
+    <section id="home">
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <label>
+E-mail:
+          </label>
+        <input id="email" type="email" name="email" placeholder ="Enter Email"></input>
+        <input type="submit" id ="submit"></input>
+      </form>
+    </section>
+    <br><br>
+    <section id="store">
+      <div id="main-container">
+        <div id="product1">This is Product 1</div>
+        <div id="product2">This is product 2</div>
+        <div id="product3">This is product 3</div>
+      </div>
+      <br><br>
+    </section>
+    <section id="about">
+      <iframe id="video"  src="https://www.youtube.com/embed/y881t8ilMyc" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+</body>
+
 </html>
