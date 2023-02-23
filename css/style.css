@@ -1,53 +1,101 @@
-#body{
+body {
   background: white;
-  width:100%;
-  padding: 20%;
+  width: 100%;
+  padding: 20px;
 }
+
 .full-screen {
   height: calc(100vh - 56px) !important;
 }
-#video{
-  width:300px;
-}
-
-
 
 #header {
-      position: fixed;
-      top:0;
-      left:0;
-
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  width: 100%;
 }
 
-#header-img{
-  background-image: url("https://www.logodesign.net/logo-new/owl-on-scale-legal-icon-6854ld.png") mo-repeat;
-  width:200px;
-  height: 100px;
+#header-img {
+  float: left;
+  width: 200px;
 }
-@media screen and (max-width: 992px) {
+
+#nav-bar {
+  float: right;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 15%;
+  margin-left: 210px;
+}
+
+#nav-bar a {
+  margin-left: 30px;
+}
+
+@media (max-width: 992px) {
   body {
     background-color: white;
   }
 }
 
-#home{
-  width:100%;
-  margin-top:300px;
+#home {
+  width: 70%;
+  height: 150px;
+  margin: auto;
+  margin-top: 120px;
+  padding-top: 150px;
+  padding-left: 180px;
+  background-color: #eee;
 }
 
-#main-container{
-  width:100%;
+#main-container {
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content:center;
+  justify-content: center;
 }
 
-#product1,#product2,#product3{
+@media (max-width: 600px) {
+  #main-container {
+    padding-left: 45px;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #main-container .product {
+    width: 90%;
+    margin-bottom: 6px;
+  }
+
+  #nav-bar {
+    float: left;
+    margin-left: 120px;
+  }
+
+  #header-img {
+    margin-left: 150px;
+  }
+}
+
+.product {
   border: solid 1px;
-  width:30%;
-  float:left;
+  width: 30%;
+  float: left;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   text-align: center;
+  margin: 0 9px;
+  padding: 6px;
+}
+
+#about {
+  width: 70%;
+  margin: auto;
+}
+
+#video {
+  width: 100%;
+  height: 420px;
 }
